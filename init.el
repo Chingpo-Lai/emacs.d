@@ -128,11 +128,12 @@
 (require 'init-slime)
 (when *emacs24* (require 'init-company))
 (require 'init-stripe-buffer)
+(require 'init-auctex)
 
 ;; color theme
 (require 'color-theme)
-(require 'color-theme-molokai)
-(color-theme-molokai)
+;(require 'color-theme-molokai)
+;(color-theme-molokai)
 ;; misc has some crucial tools I need immediately
 (require 'init-misc)
 
